@@ -1,0 +1,88 @@
+html,body{
+  margin:0;
+  padding:0;
+  width:100%;
+}
+.logform{
+  width:93%;
+  height:763px;
+  padding:50px 50px 50px 50px;
+    display: flex;
+   flex-direction: column;
+    font-family: Courier New, Courier, 'monospace';
+    background-image: url(https://images.pexels.com/photos/33044/sunflower-sun-summer-yellow.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+
+
+
+.button {
+  background: linear-gradient(to bottom right, #edf056, #dceb06);
+  border: 0;
+  border-radius: 10px;
+  color:rgb(74, 24, 24);
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  line-height: 2.3;
+  outline: transparent;
+  padding: 1px 20px;
+  text-align: center;
+ 
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(96, 227, 67, 0.5), .125rem .125rem 1rem rgba(109, 255, 90, 0.5);
+}
+
+.button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(71, 239, 158, 0.5), .125rem .125rem 1rem rgba(90, 255, 93, 0.5);
+}
+.login-form{
+  font-size: 30px;
+}
+input {
+  padding: 8px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.but {
+  display: flex;
+  height: 4em;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+ 
+ 
+  letter-spacing: 1px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border: none;
+  background: #ffffff;
+ }
+ 
+ .but > svg {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 25px;
+  transition: all 0.4s ease-in;
+ }
+ 
+ .but:hover > svg {
+  font-size: 1.2em;
+  transform: translateX(-5px);
+ }
+ 
+ .but:hover {
+  box-shadow: 9px 9px 33px #d1d1d11a, -9px -9px 33px #ffffff14;
+  transform: translateY(-2px);
+ }

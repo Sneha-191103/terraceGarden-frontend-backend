@@ -1,0 +1,147 @@
+html,body{
+  margin:0;
+  padding:0;
+  width:100%;
+}
+.container{
+  display: flex;
+ flex-wrap: wrap;
+ font-family: 'Courier New', Courier, 'monospace';
+ 
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+.card{
+ margin-top: 0px;
+ margin-left: 8px;
+  display: flex;
+  width: 350px;
+  height:550px;
+  border: 0px solid rgba(10, 10, 10, 0.447);
+  padding:5px 5px 5px 5px;
+  border-radius: 15px;
+  background: #fcfbfb;
+  box-shadow: 15px 15px 30px #f9f4f4,
+             -15px -15px 30px #ffffff;
+flex-direction: column;
+ 
+  padding:px px solid black;
+}
+
+.imag{
+  transition: transform .5s; 
+}
+.imag:hover{
+  transform: scale(1.1); 
+}
+.z{
+  font-size: 18px;
+  
+}
+h3{
+  color: red;
+}
+.nam{
+  margin-top: 0px;
+}
+.cta {
+ position: relative;
+ margin: auto;
+ padding: 12px 18px;
+ transition: all 0.2s ease;
+ border: none;
+ background: none;
+}
+
+.cta:before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: block;
+ border-radius: 50px;
+ background: #b1dae7;
+ width: 45px;
+ height: 45px;
+ transition: all 0.3s ease;
+}
+
+.cta span {
+ position: relative;
+ font-family: "Ubuntu", sans-serif;
+ font-size: 18px;
+ font-weight: 700;
+ letter-spacing: 0.05em;
+ color: #234567;
+}
+
+.cta svg {
+ position: relative;
+ top: 0;
+ margin-left: 10px;
+ fill: none;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+ stroke: #234567;
+ stroke-width: 2;
+ transform: translateX(-5px);
+ transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+ width: 100%;
+ background: #b1dae7;
+}
+
+.cta:hover svg {
+ transform: translateX(0);
+}
+
+.cta:active {
+ transform: scale(0.95);
+}
+
+.MuiPagination-root {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+
+.MuiPaginationItem-root {
+  font-size: 20px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+
+.MuiPaginationItem-root.Mui-selected {
+  background-color: #057bf2;
+  color: #050505;
+}
+
+
+.MuiPaginationItem-root:hover {
+  background-color: #090909;
+  color: #097ff6;
+}
+.down {
+    font-size: 18px;
+    padding: 2px 2px 2px 2px rgba(246, 243, 243, 0);
+    border: #05050500;
+    
+  
+}
+.d1{
+  font-size: 18px;
+}
+.dd{
+  display: flex;
+  justify-content: right;
+  width:100%;
+  padding:2px 2px 2px 2px grey;
+  background-color: #61d148;
+}
